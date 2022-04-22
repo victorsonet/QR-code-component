@@ -81,3 +81,76 @@ main {
         display: none;
     }
 }
+
+@media only screen and (min-width: 375px) and (max-width: 400px) {
+    main {
+        height: 100vh;
+    }
+    
+    .qr-section {
+        width: 85%;
+    }
+
+    .content-section {
+        width: 85%;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+    main {
+        height: 100vh;
+    }
+    
+    .qr-section {
+        width: 75%;
+    }
+
+    .content-section {
+        width: 75%;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1000px) {
+    main {
+        height: 100vh;
+    }
+    
+    .qr-section {
+        width: 50%;
+    }
+
+    .content-section {
+        width: 50%;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1200px) {
+    main {
+        height: 100vh;
+    }
+    
+    .qr-section {
+        width: 30%;
+    }
+
+    .content-section {
+        width: 30%;
+    }
+
+    .attribution {
+        display: none;
+    }
+}
+
